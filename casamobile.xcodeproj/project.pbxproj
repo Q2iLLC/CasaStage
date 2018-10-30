@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B23A83A2186E3F3009EC895 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23A8392186E3F3009EC895 /* File.swift */; };
+		3B23A83C2186F822009EC895 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B23A83B2186F822009EC895 /* ChatViewController.swift */; };
+		3B5811BD218764F500D592A9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5811BC218764F500D592A9 /* MenuViewController.swift */; };
+		3B712B0A218803D700199EE0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B712B09218803D700199EE0 /* Profile.swift */; };
+		3B7131B221868D1100F02573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7131B121868D1000F02573 /* ViewController.swift */; };
+		3BAAA3302186962E00C56F14 /* HomeJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAA32F2186962E00C56F14 /* HomeJournalViewController.swift */; };
 		3BF726D421868AC50047E8CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF726D321868AC50047E8CB /* AppDelegate.swift */; };
 		3BF726D621868AC50047E8CB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF726D521868AC50047E8CB /* FirstViewController.swift */; };
 		3BF726D821868AC50047E8CB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF726D721868AC50047E8CB /* SecondViewController.swift */; };
@@ -15,6 +21,9 @@
 		3BF726E021868AC60047E8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF726DE21868AC60047E8CB /* LaunchScreen.storyboard */; };
 		3BF726EB21868AC60047E8CB /* casamobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF726EA21868AC60047E8CB /* casamobileTests.swift */; };
 		3BF726F621868AC60047E8CB /* casamobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF726F521868AC60047E8CB /* casamobileUITests.swift */; };
+		46A1B42C59E128BD1629EEA9 /* Pods_casamobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5D1DAA20CBD7F067BCD75E /* Pods_casamobileUITests.framework */; };
+		50B6B89DEE05CB0DA1190B30 /* Pods_casamobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B599F23AA3848608DFDDD08 /* Pods_casamobile.framework */; };
+		C1E43760E9F579794EAA01EA /* Pods_casamobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EA37420671AB367A8D21DD /* Pods_casamobileTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2162B534480B0BD75637F4FA /* Pods-casamobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casamobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-casamobileTests/Pods-casamobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26642533C570AE03574E5D35 /* Pods-casamobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casamobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-casamobileUITests/Pods-casamobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E998E87CF3068F15249667D /* Pods-casamobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casamobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-casamobileUITests/Pods-casamobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5D1DAA20CBD7F067BCD75E /* Pods_casamobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casamobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B23A8392186E3F3009EC895 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3B23A83B2186F822009EC895 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		3B5811BC218764F500D592A9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3B599F23AA3848608DFDDD08 /* Pods_casamobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casamobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B712B09218803D700199EE0 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3B7131B121868D1000F02573 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../ViewController.swift; sourceTree = "<group>"; };
+		3BAAA32F2186962E00C56F14 /* HomeJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeJournalViewController.swift; sourceTree = "<group>"; };
 		3BF726D021868AC50047E8CB /* casamobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = casamobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF726D321868AC50047E8CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BF726D521868AC50047E8CB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +69,10 @@
 		3BF726F121868AC60047E8CB /* casamobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = casamobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF726F521868AC60047E8CB /* casamobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = casamobileUITests.swift; sourceTree = "<group>"; };
 		3BF726F721868AC60047E8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512584469EF04129D2147546 /* Pods-casamobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casamobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-casamobileTests/Pods-casamobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		62EA37420671AB367A8D21DD /* Pods_casamobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_casamobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC004EC69A1DEE15CC8FB21 /* Pods-casamobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casamobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-casamobile/Pods-casamobile.debug.xcconfig"; sourceTree = "<group>"; };
+		DE55CC2653FC6A78479F647E /* Pods-casamobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-casamobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-casamobile/Pods-casamobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B6B89DEE05CB0DA1190B30 /* Pods_casamobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E43760E9F579794EAA01EA /* Pods_casamobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A1B42C59E128BD1629EEA9 /* Pods_casamobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		109F1DCCFA4B3212274C206C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BC004EC69A1DEE15CC8FB21 /* Pods-casamobile.debug.xcconfig */,
+				DE55CC2653FC6A78479F647E /* Pods-casamobile.release.xcconfig */,
+				2162B534480B0BD75637F4FA /* Pods-casamobileTests.debug.xcconfig */,
+				512584469EF04129D2147546 /* Pods-casamobileTests.release.xcconfig */,
+				2E998E87CF3068F15249667D /* Pods-casamobileUITests.debug.xcconfig */,
+				26642533C570AE03574E5D35 /* Pods-casamobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3BF726C721868AC50047E8CB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				3BF726E921868AC60047E8CB /* casamobileTests */,
 				3BF726F421868AC60047E8CB /* casamobileUITests */,
 				3BF726D121868AC50047E8CB /* Products */,
+				109F1DCCFA4B3212274C206C /* Pods */,
+				57942305981B2D969A94542F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +142,18 @@
 			isa = PBXGroup;
 			children = (
 				3BF726D321868AC50047E8CB /* AppDelegate.swift */,
+				3B712B09218803D700199EE0 /* Profile.swift */,
+				3B23A8392186E3F3009EC895 /* File.swift */,
 				3BF726D521868AC50047E8CB /* FirstViewController.swift */,
+				3B23A83B2186F822009EC895 /* ChatViewController.swift */,
 				3BF726D721868AC50047E8CB /* SecondViewController.swift */,
 				3BF726D921868AC50047E8CB /* Main.storyboard */,
+				3B7131B121868D1000F02573 /* ViewController.swift */,
 				3BF726DC21868AC60047E8CB /* Assets.xcassets */,
 				3BF726DE21868AC60047E8CB /* LaunchScreen.storyboard */,
 				3BF726E121868AC60047E8CB /* Info.plist */,
+				3BAAA32F2186962E00C56F14 /* HomeJournalViewController.swift */,
+				3B5811BC218764F500D592A9 /* MenuViewController.swift */,
 			);
 			path = casamobile;
 			sourceTree = "<group>";
@@ -128,6 +176,16 @@
 			path = casamobileUITests;
 			sourceTree = "<group>";
 		};
+		57942305981B2D969A94542F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B599F23AA3848608DFDDD08 /* Pods_casamobile.framework */,
+				62EA37420671AB367A8D21DD /* Pods_casamobileTests.framework */,
+				3A5D1DAA20CBD7F067BCD75E /* Pods_casamobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF726FA21868AC60047E8CB /* Build configuration list for PBXNativeTarget "casamobile" */;
 			buildPhases = (
+				F5243E71FF598389691D2B5C /* [CP] Check Pods Manifest.lock */,
 				3BF726CC21868AC50047E8CB /* Sources */,
 				3BF726CD21868AC50047E8CB /* Frameworks */,
 				3BF726CE21868AC50047E8CB /* Resources */,
+				4303B41876934D5E0D996365 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF726FD21868AC60047E8CB /* Build configuration list for PBXNativeTarget "casamobileTests" */;
 			buildPhases = (
+				665EF6387B2A95C9C38D54C2 /* [CP] Check Pods Manifest.lock */,
 				3BF726E221868AC60047E8CB /* Sources */,
 				3BF726E321868AC60047E8CB /* Frameworks */,
 				3BF726E421868AC60047E8CB /* Resources */,
@@ -170,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BF7270021868AC60047E8CB /* Build configuration list for PBXNativeTarget "casamobileUITests" */;
 			buildPhases = (
+				9A68357F812666AB9633022C /* [CP] Check Pods Manifest.lock */,
 				3BF726ED21868AC60047E8CB /* Sources */,
 				3BF726EE21868AC60047E8CB /* Frameworks */,
 				3BF726EF21868AC60047E8CB /* Resources */,
@@ -254,14 +316,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4303B41876934D5E0D996365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-casamobile/Pods-casamobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BTNavigationDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-casamobile/Pods-casamobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665EF6387B2A95C9C38D54C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-casamobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A68357F812666AB9633022C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-casamobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5243E71FF598389691D2B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-casamobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BF726CC21868AC50047E8CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7131B221868D1100F02573 /* ViewController.swift in Sources */,
+				3B23A83A2186E3F3009EC895 /* File.swift in Sources */,
 				3BF726D821868AC50047E8CB /* SecondViewController.swift in Sources */,
+				3B23A83C2186F822009EC895 /* ChatViewController.swift in Sources */,
+				3BAAA3302186962E00C56F14 /* HomeJournalViewController.swift in Sources */,
 				3BF726D421868AC50047E8CB /* AppDelegate.swift in Sources */,
 				3BF726D621868AC50047E8CB /* FirstViewController.swift in Sources */,
+				3B712B0A218803D700199EE0 /* Profile.swift in Sources */,
+				3B5811BD218764F500D592A9 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,16 +597,17 @@
 		};
 		3BF726FB21868AC60047E8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC004EC69A1DEE15CC8FB21 /* Pods-casamobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6Y569X7749;
+				DEVELOPMENT_TEAM = 653BQVXQ3G;
 				INFOPLIST_FILE = casamobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.casamobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.casamobileStaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,16 +616,17 @@
 		};
 		3BF726FC21868AC60047E8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE55CC2653FC6A78479F647E /* Pods-casamobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6Y569X7749;
+				DEVELOPMENT_TEAM = 653BQVXQ3G;
 				INFOPLIST_FILE = casamobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.casamobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.casamobileStaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +635,7 @@
 		};
 		3BF726FE21868AC60047E8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2162B534480B0BD75637F4FA /* Pods-casamobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +657,7 @@
 		};
 		3BF726FF21868AC60047E8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512584469EF04129D2147546 /* Pods-casamobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +679,7 @@
 		};
 		3BF7270121868AC60047E8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E998E87CF3068F15249667D /* Pods-casamobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +700,7 @@
 		};
 		3BF7270221868AC60047E8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26642533C570AE03574E5D35 /* Pods-casamobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
