@@ -1,0 +1,24 @@
+PODS:
+  - BTNavigationDropdownMenu (0.5)
+  - SideMenu (5.0.2)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - BTNavigationDropdownMenu
+  - SideMenu
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BTNavigationDropdownMenu
+    - SideMenu
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  BTNavigationDropdownMenu: ba3a26fdb6a56c4721c31df8a0875106c259663a
+  SideMenu: e5094f0b2e7d9609e100a90ae69025abd994f882
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 063d8501526c72bff78d1ea3f8b750ae89b983dc
+
+COCOAPODS: 1.5.3

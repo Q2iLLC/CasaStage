@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import SafariServices
 
-class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,SFSafariViewControllerDelegate {
     
     @IBOutlet var Email: UILabel!
     @IBOutlet var LastName: UILabel!
     @IBOutlet var Name: UILabel!
     @IBOutlet var ProfileImage: UIImageView!
+    var myIndex = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         MyTableView.contentInset = UIEdgeInsets(top: -28, left: 0, bottom: 0, right: 0);
@@ -74,6 +76,55 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return list[section][0]
+    }
+    func rateApp(appId: String, completion: @escaping ((_ success: Bool)->())) {
+        guard let url = URL(string : "itms-apps://itunes.apple.com/app/" + appId) else {
+            completion(false)
+            return
+        }
+        guard #available(iOS 10, *) else {
+            completion(UIApplication.shared.openURL(url))
+            return
+        }
+        UIApplication.shared.open(url, options: [:], completionHandler: completion)
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        myIndex = indexPath.row
+        if(list[indexPath.section][indexPath.row+1]=="Edit your Profile"){
+            performSegue(withIdentifier: "MySegue", sender: self)
+        }
+        else if(list[indexPath.section][indexPath.row+1]=="Check for Updates"){
+            
+        }
+        else if(list[indexPath.section][indexPath.row+1]=="Rate our App"){
+            
+        }
+        else if(list[indexPath.section][indexPath.row+1]=="Contact Us"){
+            
+        }
+        else if(list[indexPath.section][indexPath.row+1]=="About Us"){
+//            UIApplication.shared.openURL(NSURL(string: "https://www.q2i-oars.com/about")! as URL)
+            openSafariVC(self,url: "https://www.q2i-oars.com/about")
+
+        }
+        else if(list[indexPath.section][indexPath.row+1]=="Terms and Policies"){
+//            UIApplication.shared.openURL(NSURL(string: "https://www.q2i-casa.com/privacy")! as URL)
+            openSafariVC(self,url: "https://www.q2i-casa.com/privacy")
+        }
+        else if(list[indexPath.section][indexPath.row+1]=="Log Out"){
+            performSegue(withIdentifier: "LogOut", sender: self)
+
+
+        }
+        else{
+            
+        }
+//        performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+    }
+    func openSafariVC (_ sender: Any, url: String){
+        let safariVc = SFSafariViewController(url: NSURL(string: url ) as! URL)
+        self.present(safariVc, animated: true, completion: nil)
+        safariVc.delegate = self
     }
     /*
     // MARK: - Navigation

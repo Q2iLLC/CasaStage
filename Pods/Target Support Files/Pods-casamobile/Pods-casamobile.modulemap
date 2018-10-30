@@ -1,0 +1,6 @@
+framework module Pods_casamobile {
+  umbrella header "Pods-casamobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
